@@ -1,0 +1,4 @@
+node_modules/
+test_javan.db
+test_javan.db-shm
+test_javan.db-wal

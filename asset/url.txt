@@ -1,0 +1,3 @@
+https://api.genderize.io/?name={budi}
+https://api.nationalize.io/?name={budi}
+https://api.first.org/data/v1/countries

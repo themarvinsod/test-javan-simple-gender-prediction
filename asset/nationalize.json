@@ -1,0 +1,26 @@
+{
+  "count": 25095,
+  "name": "budi",
+  "country": [
+    {
+      "country_id": "ID",
+      "probability": 0.859415
+    },
+    {
+      "country_id": "MY",
+      "probability": 0.037895
+    },
+    {
+      "country_id": "BN",
+      "probability": 0.012753
+    },
+    {
+      "country_id": "US",
+      "probability": 0.009602
+    },
+    {
+      "country_id": "TW",
+      "probability": 0.008207
+    }
+  ]
+}

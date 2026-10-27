@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fb">
+    <title>Name insight</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="intro">
+        <p class="eyebrow">A little curiosity, backed by data</p>
+        <h1>What might a name tell us?</h1>
+        <p class="subtitle">Explore estimated gender and country associations for a name.</p>
+      </header>
+
+      <section class="search-card" aria-labelledby="form-title">
+        <h2 id="form-title">Try a name</h2>
+        <form id="name-form">
+          <label for="name">Name</label>
+          <div class="input-row">
+            <input id="name" name="name" type="text" maxlength="100" autocomplete="given-name"
+              placeholder="For example, Budi" required>
+            <button type="submit" id="submit-button">Explore name <span aria-hidden="true">→</span></button>
+          </div>
+          <p class="note">These are statistical estimates, not facts about an individual.</p>
+        </form>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section id="latest-result" class="result-card" aria-live="polite" hidden></section>
+
+      <section class="history-section" aria-labelledby="history-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Saved in SQLite</p>
+            <h2 id="history-heading">Recent lookups</h2>
+          </div>
+        </div>
+        <div id="history" class="history-list">
+          <p class="empty-state">Your recent lookups will appear here.</p>
+        </div>
+      </section>
+      <footer>Estimates provided by Genderize and Nationalize.</footer>
+    </main>
+  </body>
+</html>
